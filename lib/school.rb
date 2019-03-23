@@ -31,7 +31,7 @@ class School
       array = @roster[r]
       binding.pry
       array.sort
-    
+
     end
   end
 
