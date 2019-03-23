@@ -29,6 +29,7 @@ class School
   def sort
     if !(@roster.length == 0)
       @roster.each do |r|
+        binding.pry
       @roster[r].sort
       end
     end
