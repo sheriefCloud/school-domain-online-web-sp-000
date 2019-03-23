@@ -30,7 +30,7 @@ class School
     if !(@roster.length == 0)
       @roster.each do |grade,students|
         binding.pry
-      @roster[grade].sort
+      @roster[students].sort
       end
     end
   end
