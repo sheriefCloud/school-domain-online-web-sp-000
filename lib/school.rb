@@ -27,9 +27,10 @@ class School
   end
 
   def sort
-    @roster.each do |r|
-    @roster[r].sort
-
+    if !(@roster.length == 0)
+      @roster.each do |r|
+      @roster[r].sort
+      end
     end
   end
 
