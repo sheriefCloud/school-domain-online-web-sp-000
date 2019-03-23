@@ -29,8 +29,8 @@ class School
   def sort
     #if !(@roster.length == 0)
       @roster.each do |grade,students|
-        binding.pry
-      @roster[students].sort
+        #binding.pry
+      @roster[grade].sort
       end
   #  end
   end
