@@ -27,12 +27,12 @@ class School
   end
 
   def sort
-    if !(@roster.length == 0)
+    #if !(@roster.length == 0)
       @roster.each do |grade,students|
         binding.pry
       @roster[students].sort
       end
-    end
+  #  end
   end
 
 
